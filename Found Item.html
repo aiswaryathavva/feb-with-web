@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>svecw lost and found</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="navbar">
+                <div class="icon">
+                    <h2 class="logo"><img src="vishnu logo.jpg"></h2>
+                </div>
+                <div class="menu">
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="Lost Item.html">Lost Item</a></li>
+                        <li><a href="Found Item.html">Found Item</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="search">
+                    <input class="srch" type="search" name="" placeholder="Type here to search">
+                    <a href="#"><button class="btn" >Search</button></a>
+                </div>
+            </div>
+            <center>
+                <div class="found" align="center">
+                    <h2>Add Found Item</h2>
+                            <table>
+                                <tr><td><h3 style="color: orange">Found Item <small class="required">(*)</small></h5>
+                                    
+                                    <span class="label-info" style="color:oldlace">Jacket, Smartphone, Wallet, etc.</span></td>
+                                    <td>
+                                        <input type="text" name="p_item" id="p_item" class="form-control" placeholder="Enter Lost Item" onkeyup="return searchItemName(this);">
+                                    </td>
+                                </tr>
+                                <tr><td><h3 style="color: orange">Category <small class="required">(*)</small></h5>
+                                    
+                                    <span class="label-info" style="color:oldlace">Clothing, Electronics, Personal Accessories etc.</span></td>
+                                    <td>
+                                        <input type="text" name="p_category" id="p_category" class="form-control" placeholder="Enter Lost Category" onkeyup="return searchItemName(this);">
+                                    </td>
+                                </tr>
+                                <tr><td><h3 style="color: orange">Brand<small class="required">(*)</small></h5>
+                                    
+                                    <span class="label-info" style="color:oldlace">mention brand </span></td>
+                                   <td>
+                                       <input type="text" name="p_brand" id="p_brand" class="form-control" placeholder="Enter Brand" onkeyup="return searchItemName(this);">
+                                   </td>
+                               </tr>
+                               <tr><td><h3 style="color: orange">Color <small class="required">(*)</small></h5>
+                                    
+                                <span class="label-info" style="color:oldlace">add color of your item</span></td>
+                               <td>
+                                   <input type="text" name="p_color" id="p_color" class="form-control" placeholder="Enter Color" onkeyup="return searchItemName(this);">
+                               </td>
+                           </tr>
+
+                           <tr>
+                                <td><h3 style="color: orange">Image: <small class="required">(*)</small></h5>
+                                </td>
+                                <td><input accept=".jpg, .jpeg, .png" id="" class="p_file" type="file" name="p_file[]" multiple>
+                                </td>
+                           </tr>
+                           <tr>
+                            <td><h3 style="color: orange"> Found Place: <small class="required">(*)</small></h5>
+                            </td>
+                            <td>
+                                <input type="text" name="place" placeholder="Place you found">
+                            </td>
+                           </tr>
+                           <tr><td><h3 style="color: orange">Name: <small class="required">(*)</small></h5>
+                                </td>
+                                <td>
+                                    <input type="text" name="name" id="name"  placeholder="Enter Name" >
+                                </td>
+                            </tr>
+                            <tr><td><h3 style="color: orange">Year: <small class="required">(*)</small></h5>
+                            </td>
+                            <td>
+                                <input type="text" name="year" id="year"  placeholder="Enter Year" >
+                            </td>
+                            </tr>
+                            <tr><td><h3 style="color: orange">Register no: <small class="required">(*)</small></h5>
+                            </td>
+                            <td>
+                                <input type="text" name="reg" id="reg"  placeholder="Enter Register no" >
+                            </td>
+                            </tr>
+                            <tr><td><h3 style="color: orange">Phone no:</h5>
+                            </td>
+                            <td>
+                                <input type="text" name="ph" id="ph"  placeholder="Enter mobile" >
+                            </td>
+                            </tr><tr><td></td><td></td>
+                            <td><button class="btnn2"><a href="#">Submit</a></button></td>
+                        </tr>
+                        </table>
+                        
+            </center>
+        </div>
+    </body>
+</html>

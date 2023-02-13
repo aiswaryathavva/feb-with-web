@@ -1,0 +1,89 @@
+<html>
+  <head>
+    <title>Login Page</title>
+    <style>
+      .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #e8cd64;
+      }
+
+      .form {
+        
+        display: flex;
+        background: linear-gradient(to top,rgb(0,0,0,0.5)50%,rgb(0,0,0,0.5)50%);
+        flex-direction: column;
+        align-items: center;
+        background-color: #f2f2f2;
+        padding: 20px;
+        border-radius: 10px;
+        size: 50;
+      }
+      .form.input:focus{
+        outline: none;
+      }
+
+      .form h1 {
+        font-size: 40px;
+        margin-bottom: 20px;
+      }
+
+      .form input[type="text"],
+      .form input[type="password"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .form select {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+
+      .form input[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color:   #d8b93b;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      .form input[type="submit"]:hover {
+        background-color: #4CAF50;
+      }
+      
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <img src="investor.jpeg" alt="Investors" width="50%" height="100%" align="right" />
+      <form class="form" action="" style="width: 30%; height: 50%;">
+        <h1>Login Page</h1>
+        <label for="username" style="font-size: 25px;">Username:</label>
+        <input type="text" id="username" name="username">
+        <label for="password" style="font-size: 25px;" >Password:</label>
+        <input type="password" id="password" name="password">
+        <!--<label for="category">Category:</label>
+         <select id="category" name="category">
+          <option value="innovators">Innovators</option>
+          <li><a href="logininnovator.html"><img src="innovator.png" placeholder="Innovators"/></a></li> 
+          <option value="advisors">Advisors</option>
+          <option value="investors">Investors</option>
+        </select> -->
+        <input type="submit" value="Login" style="font-size: 25px;">
+        <p class="para-2" style="font-size: 25px;">
+          Don't have an account? <a href="signupinvestors.html">Sign up here</a>
+        </p>
+      </form>
+    </div>
+  </body>
+</html>

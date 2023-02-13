@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>login</title>
+    <style>
+        * {
+          box-sizing: border-box;
+        }
+        
+        .column {
+          float: left;
+          width: 33.33%;
+          padding: 25px;
+          flex: 1;
+        }
+        
+        /* Clearfix (clear floats) */
+        .row::after {
+          content: "";
+          clear: both;
+          display: table;
+        }
+        .card {
+            padding-left: 20;
+            align-items: center;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+            transition: 0.3s;
+            width: 100%;
+            justify-content: space-between;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+        }
+
+        .container {
+            padding-right: 5px;
+            padding-left: 100px;
+            display: flex;
+    }
+        </style>
+</head>
+<body>
+    
+    <div class="header">
+        <h1 style="text-align:center">USER TYPE</h1>
+    </div>
+    
+    <div class="card" style = "padding-left: 200px; padding-right: 200px;">
+        <div class="row" >
+            <div class="column">
+                <a href="logininnovator.html"><img src="innovator.png" alt="Innovators" width="100%" height="100%" align="left"/></a>
+                <div class="container">
+                <h1 style="text-align:center">Innovator</h1>
+                </div>
+            </div>
+            <div class="column">
+                <a href="loginadvisor.html"><img src="advisor.png" alt="Advisors" width="100%" height="100%" align="center" /></a>
+                <div class="container">
+                    <h1 style="text-align:center">Advisor</h1>
+                    </div>
+              
+            </div>
+            <div class="column">
+                <a href="logininvestor.html"><img src="invest.jpg" alt="Investors" width="100%" height="100%" align="right"/></a>
+                <div class="container">
+                    <h1 style="text-align: center">Investor</h1>
+                    </div>
+              
+            </div>
+            
+            <!-- <div class="column">
+                <a href="logininnovator.html"><img src="innovator.png" placeholder="Innovators" width="75%"  /></a>
+            </div>
+            <div class="column">
+                <a href="loginadvisor.html"><img src="advisor.png" alt="Advisors" width="75%"/></a>
+              
+            </div>
+            <div class="column">
+                <a href="logininvestor.html"><img src="invest.jpg" alt="Investors" width="75%" /></a>
+              
+            </div> -->
+        </div>
+    </div>
+    
+    
+</body>
+</html>
