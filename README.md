@@ -15,6 +15,6 @@ INNOVATOR:
   Here advisors play a role to clarify the doubts of the innovators for that he need to submit a validate proof that he is eligible to be an advisor
   INVESTORS:
     Investors invests on a good idea that was proposed by the innovators.
-    for that he initially need to pay some money to register to take a look on tha valuable ideas of innovators.
-    If he interested to learn about a project completely he need to purchase the project to get the full resours=ces and details of the project.
+    for that he initially need to pay some money to register to take a look on that valuable ideas of innovators.
+    If he interested to learn about a project completely he need to purchase the project to get the full resources and details of the project.
   This is the flow chart of our project  "!!!!!!IDEACOLLAB!!!!!!!"
